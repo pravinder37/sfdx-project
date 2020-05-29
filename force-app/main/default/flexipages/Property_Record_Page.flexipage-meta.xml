@@ -6,10 +6,6 @@
                 <name>collapsed</name>
                 <value>false</value>
             </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>hideChatterActions</name>
-                <value>false</value>
-            </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -18,18 +14,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentInstanceProperties>
-                <name>relatedListComponentOverride</name>
-                <value>NONE</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>rowsToDisplay</name>
-                <value>10</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>showActionBar</name>
-                <value>true</value>
-            </componentInstanceProperties>
             <componentName>force:relatedListContainer</componentName>
         </componentInstances>
         <mode>Replace</mode>
@@ -89,12 +73,10 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>runtime_sales_activities:activityPanel</componentName>
+        </componentInstances>
+        <componentInstances>
             <componentInstanceProperties>
- feature-maria-gallery
-                <name>animations</name>
-                <value>true</value>
-            </componentInstanceProperties>
-            <componentName>PictureGalleryCard</componentName>
                 <name>latField</name>
                 <value>Location__Latitude__s</value>
             </componentInstanceProperties>
@@ -106,11 +88,7 @@
                 <name>titleField</name>
                 <value>Name</value>
             </componentInstanceProperties>
-            <componentName>RecordMap</componentName>
-      master
-        </componentInstances>
-        <componentInstances>
-            <componentName>runtime_sales_activities:activityPanel</componentName>
+            <componentName>MapCard</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>activityTabContent</name>
